@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinica Médica - Contato</title>
+  <link rel="stylesheet" href="base.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="menu">
+      <ul>
+        <li><a href="paginaPrincipal.html"> Página Principal</a></li>
+        <li><a href="sobreClinica.html">Sobre a Clinica</a></li>
+        <li><a href="horarioAtendimento.html"> Horario de Atendimento</a></li>
+        <li><a href="contato.html"> Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="header">
+        <img src="capa-contato.png"/ width="1000 " height="230 ">
+      </div>
+      <div class="content">
+        <p>Nossa clínica está localizada na Rua das Flores, 123, no centro de São Paulo,SP.
+          Se você precisar entrar em contato conosco, pode nos ligar no telefone (11) 9999-0000 ou falar conosco no
+          WhatsApp pelo número (011) 9999-12345.
+        </p>
+        <p>Estamos sempre prontos para ajudar!</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.479575547389!2d-46.63343072627643!3d-23.55121347880677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5900b15a1739%3A0xa04ba02905756f1!2sR.%20das%20Fl%C3%B4res%2C%20123%20-%20S%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001019-010!5e0!3m2!1spt-BR!2sbr!4v1681430354029!5m2!1spt-BR!2sbr"
+          width="400" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form name="contato" autocomplete="off" action="#" method="post">
+          <div class="form">
+            <label>Nome:</label>
+            <input type="text" id="name" name="name" required /><br>
+            <label>E-mail:</label>
+            <input type="email" id="email" name="email" required /><br>
+            <label>Assunto:</label>
+            <input type="text" id="subject" name="subject" required /><br>
+            <label>Mensagem:</label>
+            <textarea id="message" name="message" placeholder="Deixe aqui sua mensangem" rows="10" required></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </div>
+        </form>
+      </div>
+      <div class="footer">
+        <footer>
+          <h4>Informações de Contato:</h4>
+          <p>Endereço: Rua das Flores, 123 - Centro, São Paulo - SP | Telefone:
+            (11) 9999-0000 | E-mail: contato@clinicamedica.com.br</p>
+          <h4>Horário de Atendimento:</h4>
+          <p>Segunda a Sexta: 08h às 18h | Sábado: 08h às 12h</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
